@@ -9453,9 +9453,7 @@ func (client *Client) GetEndpoint(productId *string, regionId *string, endpointR
 //
 // 	- After a short URL is generated, a security review is required. Generally, the review takes 10 minutes to 2 hours to complete. Before the security review is passed, the short URL cannot be directly accessed.
 //
-// @param request - AddShortUrlRequest
-//
-// @param runtime - runtime options for this request RuntimeOptions
+ 
 //
 // @return AddShortUrlResponse
 func (client *Client) AddShortUrlWithOptions(request *AddShortUrlRequest, runtime *util.RuntimeOptions) (_result *AddShortUrlResponse, _err error) {
@@ -9525,7 +9523,7 @@ func (client *Client) AddShortUrlWithOptions(request *AddShortUrlRequest, runtim
 //
 // 	- After a short URL is generated, a security review is required. Generally, the review takes 10 minutes to 2 hours to complete. Before the security review is passed, the short URL cannot be directly accessed.
 //
-// @param request - AddShortUrlRequest
+ 
 //
 // @return AddShortUrlResponse
 func (client *Client) AddShortUrl(request *AddShortUrlRequest) (_result *AddShortUrlResponse, _err error) {
@@ -9565,9 +9563,7 @@ func (client *Client) AddShortUrl(request *AddShortUrlRequest) (_result *AddShor
 //
 // 	- An SMS signature must undergo a thorough review process before it can be approved for use.
 //
-// @param request - AddSmsSignRequest
-//
-// @param runtime - runtime options for this request RuntimeOptions
+ 
 //
 // @return AddSmsSignResponse
 func (client *Client) AddSmsSignWithOptions(request *AddSmsSignRequest, runtime *util.RuntimeOptions) (_result *AddSmsSignResponse, _err error) {
@@ -9659,7 +9655,7 @@ func (client *Client) AddSmsSignWithOptions(request *AddSmsSignRequest, runtime 
 //
 // 	- An SMS signature must undergo a thorough review process before it can be approved for use.
 //
-// @param request - AddSmsSignRequest
+ 
 //
 // @return AddSmsSignResponse
 func (client *Client) AddSmsSign(request *AddSmsSignRequest) (_result *AddSmsSignResponse, _err error) {
@@ -9699,9 +9695,7 @@ func (client *Client) AddSmsSign(request *AddSmsSignRequest) (_result *AddSmsSig
 //
 // You can call this operation up to 1,000 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - AddSmsTemplateRequest
-//
-// @param runtime - runtime options for this request RuntimeOptions
+ 
 //
 // @return AddSmsTemplateResponse
 func (client *Client) AddSmsTemplateWithOptions(request *AddSmsTemplateRequest, runtime *util.RuntimeOptions) (_result *AddSmsTemplateResponse, _err error) {
@@ -9787,7 +9781,7 @@ func (client *Client) AddSmsTemplateWithOptions(request *AddSmsTemplateRequest, 
 //
 // You can call this operation up to 1,000 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - AddSmsTemplateRequest
+ 
 //
 // @return AddSmsTemplateResponse
 func (client *Client) AddSmsTemplate(request *AddSmsTemplateRequest) (_result *AddSmsTemplateResponse, _err error) {
@@ -9811,9 +9805,7 @@ func (client *Client) AddSmsTemplate(request *AddSmsTemplateRequest) (_result *A
 //
 // You can call this operation up to 2,000 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - CheckMobilesCardSupportRequest
-//
-// @param runtime - runtime options for this request RuntimeOptions
+ 
 //
 // @return CheckMobilesCardSupportResponse
 func (client *Client) CheckMobilesCardSupportWithOptions(request *CheckMobilesCardSupportRequest, runtime *util.RuntimeOptions) (_result *CheckMobilesCardSupportResponse, _err error) {
@@ -9863,7 +9855,7 @@ func (client *Client) CheckMobilesCardSupportWithOptions(request *CheckMobilesCa
 //
 // You can call this operation up to 2,000 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - CheckMobilesCardSupportRequest
+ 
 //
 // @return CheckMobilesCardSupportResponse
 func (client *Client) CheckMobilesCardSupport(request *CheckMobilesCardSupportRequest) (_result *CheckMobilesCardSupportResponse, _err error) {
@@ -9881,9 +9873,7 @@ func (client *Client) CheckMobilesCardSupport(request *CheckMobilesCardSupportRe
 //
 // Sends conversion rate information to Alibaba Cloud SMS.
 //
-// @param request - ConversionDataIntlRequest
-//
-// @param runtime - runtime options for this request RuntimeOptions
+ 
 //
 // @return ConversionDataIntlResponse
 func (client *Client) ConversionDataIntlWithOptions(request *ConversionDataIntlRequest, runtime *util.RuntimeOptions) (_result *ConversionDataIntlResponse, _err error) {
@@ -9939,7 +9929,7 @@ func (client *Client) ConversionDataIntlWithOptions(request *ConversionDataIntlR
 //
 // Sends conversion rate information to Alibaba Cloud SMS.
 //
-// @param request - ConversionDataIntlRequest
+ 
 //
 // @return ConversionDataIntlResponse
 func (client *Client) ConversionDataIntl(request *ConversionDataIntlRequest) (_result *ConversionDataIntlResponse, _err error) {
@@ -9969,9 +9959,7 @@ func (client *Client) ConversionDataIntl(request *ConversionDataIntlRequest) (_r
 //
 // You can call this operation up to 300 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param tmpReq - CreateCardSmsTemplateRequest
-//
-// @param runtime - runtime options for this request RuntimeOptions
+ 
 //
 // @return CreateCardSmsTemplateResponse
 func (client *Client) CreateCardSmsTemplateWithOptions(tmpReq *CreateCardSmsTemplateRequest, runtime *util.RuntimeOptions) (_result *CreateCardSmsTemplateResponse, _err error) {
@@ -10041,7 +10029,7 @@ func (client *Client) CreateCardSmsTemplateWithOptions(tmpReq *CreateCardSmsTemp
 //
 // You can call this operation up to 300 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - CreateCardSmsTemplateRequest
+ 
 //
 // @return CreateCardSmsTemplateResponse
 func (client *Client) CreateCardSmsTemplate(request *CreateCardSmsTemplateRequest) (_result *CreateCardSmsTemplateResponse, _err error) {
@@ -10057,11 +10045,7 @@ func (client *Client) CreateCardSmsTemplate(request *CreateCardSmsTemplateReques
 
 // Summary:
 //
-// 创建短链
-//
-// @param request - CreateSmartShortUrlRequest
-//
-// @param runtime - runtime options for this request RuntimeOptions
+// 创建短链 
 //
 // @return CreateSmartShortUrlResponse
 func (client *Client) CreateSmartShortUrlWithOptions(request *CreateSmartShortUrlRequest, runtime *util.RuntimeOptions) (_result *CreateSmartShortUrlResponse, _err error) {
@@ -10120,8 +10104,7 @@ func (client *Client) CreateSmartShortUrlWithOptions(request *CreateSmartShortUr
 // Summary:
 //
 // 创建短链
-//
-// @param request - CreateSmartShortUrlRequest
+// 
 //
 // @return CreateSmartShortUrlResponse
 func (client *Client) CreateSmartShortUrl(request *CreateSmartShortUrlRequest) (_result *CreateSmartShortUrlResponse, _err error) {
@@ -10137,11 +10120,7 @@ func (client *Client) CreateSmartShortUrl(request *CreateSmartShortUrlRequest) (
 
 // Summary:
 //
-// 创建短信签名
-//
-// @param tmpReq - CreateSmsSignRequest
-//
-// @param runtime - runtime options for this request RuntimeOptions
+// 创建短信签名 
 //
 // @return CreateSmsSignResponse
 func (client *Client) CreateSmsSignWithOptions(tmpReq *CreateSmsSignRequest, runtime *util.RuntimeOptions) (_result *CreateSmsSignResponse, _err error) {
@@ -10226,8 +10205,7 @@ func (client *Client) CreateSmsSignWithOptions(tmpReq *CreateSmsSignRequest, run
 // Summary:
 //
 // 创建短信签名
-//
-// @param request - CreateSmsSignRequest
+// 
 //
 // @return CreateSmsSignResponse
 func (client *Client) CreateSmsSign(request *CreateSmsSignRequest) (_result *CreateSmsSignResponse, _err error) {
@@ -10243,11 +10221,7 @@ func (client *Client) CreateSmsSign(request *CreateSmsSignRequest) (_result *Cre
 
 // Summary:
 //
-// 创建短信模板
-//
-// @param tmpReq - CreateSmsTemplateRequest
-//
-// @param runtime - runtime options for this request RuntimeOptions
+// 创建短信模板 
 //
 // @return CreateSmsTemplateResponse
 func (client *Client) CreateSmsTemplateWithOptions(tmpReq *CreateSmsTemplateRequest, runtime *util.RuntimeOptions) (_result *CreateSmsTemplateResponse, _err error) {
@@ -10336,8 +10310,7 @@ func (client *Client) CreateSmsTemplateWithOptions(tmpReq *CreateSmsTemplateRequ
 // Summary:
 //
 // 创建短信模板
-//
-// @param request - CreateSmsTemplateRequest
+// 
 //
 // @return CreateSmsTemplateResponse
 func (client *Client) CreateSmsTemplate(request *CreateSmsTemplateRequest) (_result *CreateSmsTemplateResponse, _err error) {
@@ -10361,9 +10334,9 @@ func (client *Client) CreateSmsTemplate(request *CreateSmsTemplateRequest) (_res
 //
 // You can call this operation up to 100 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - DeleteShortUrlRequest
+//  request - DeleteShortUrlRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return DeleteShortUrlResponse
 func (client *Client) DeleteShortUrlWithOptions(request *DeleteShortUrlRequest, runtime *util.RuntimeOptions) (_result *DeleteShortUrlResponse, _err error) {
@@ -10423,7 +10396,7 @@ func (client *Client) DeleteShortUrlWithOptions(request *DeleteShortUrlRequest, 
 //
 // You can call this operation up to 100 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - DeleteShortUrlRequest
+//  request - DeleteShortUrlRequest
 //
 // @return DeleteShortUrlResponse
 func (client *Client) DeleteShortUrl(request *DeleteShortUrlRequest) (_result *DeleteShortUrlResponse, _err error) {
@@ -10451,9 +10424,9 @@ func (client *Client) DeleteShortUrl(request *DeleteShortUrlRequest) (_result *D
 //
 // You can call this operation up to 1,000 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - DeleteSmsSignRequest
+//  request - DeleteSmsSignRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return DeleteSmsSignResponse
 func (client *Client) DeleteSmsSignWithOptions(request *DeleteSmsSignRequest, runtime *util.RuntimeOptions) (_result *DeleteSmsSignResponse, _err error) {
@@ -10515,7 +10488,7 @@ func (client *Client) DeleteSmsSignWithOptions(request *DeleteSmsSignRequest, ru
 //
 // You can call this operation up to 1,000 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - DeleteSmsSignRequest
+//  request - DeleteSmsSignRequest
 //
 // @return DeleteSmsSignResponse
 func (client *Client) DeleteSmsSign(request *DeleteSmsSignRequest) (_result *DeleteSmsSignResponse, _err error) {
@@ -10545,9 +10518,9 @@ func (client *Client) DeleteSmsSign(request *DeleteSmsSignRequest) (_result *Del
 //
 // You can call this operation up to 1,000 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - DeleteSmsTemplateRequest
+//  request - DeleteSmsTemplateRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return DeleteSmsTemplateResponse
 func (client *Client) DeleteSmsTemplateWithOptions(request *DeleteSmsTemplateRequest, runtime *util.RuntimeOptions) (_result *DeleteSmsTemplateResponse, _err error) {
@@ -10611,7 +10584,7 @@ func (client *Client) DeleteSmsTemplateWithOptions(request *DeleteSmsTemplateReq
 //
 // You can call this operation up to 1,000 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - DeleteSmsTemplateRequest
+//  request - DeleteSmsTemplateRequest
 //
 // @return DeleteSmsTemplateResponse
 func (client *Client) DeleteSmsTemplate(request *DeleteSmsTemplateRequest) (_result *DeleteSmsTemplateResponse, _err error) {
@@ -10635,9 +10608,9 @@ func (client *Client) DeleteSmsTemplate(request *DeleteSmsTemplateRequest) (_res
 //
 // You can call this operation up to 1,000 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - GetCardSmsLinkRequest
+//  request - GetCardSmsLinkRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return GetCardSmsLinkResponse
 func (client *Client) GetCardSmsLinkWithOptions(request *GetCardSmsLinkRequest, runtime *util.RuntimeOptions) (_result *GetCardSmsLinkResponse, _err error) {
@@ -10715,7 +10688,7 @@ func (client *Client) GetCardSmsLinkWithOptions(request *GetCardSmsLinkRequest, 
 //
 // You can call this operation up to 1,000 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - GetCardSmsLinkRequest
+//  request - GetCardSmsLinkRequest
 //
 // @return GetCardSmsLinkResponse
 func (client *Client) GetCardSmsLink(request *GetCardSmsLinkRequest) (_result *GetCardSmsLinkResponse, _err error) {
@@ -10739,9 +10712,9 @@ func (client *Client) GetCardSmsLink(request *GetCardSmsLinkRequest) (_result *G
 //
 // You can call this operation up to 300 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - GetMediaResourceIdRequest
+//  request - GetMediaResourceIdRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return GetMediaResourceIdResponse
 func (client *Client) GetMediaResourceIdWithOptions(request *GetMediaResourceIdRequest, runtime *util.RuntimeOptions) (_result *GetMediaResourceIdResponse, _err error) {
@@ -10803,7 +10776,7 @@ func (client *Client) GetMediaResourceIdWithOptions(request *GetMediaResourceIdR
 //
 // You can call this operation up to 300 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - GetMediaResourceIdRequest
+//  request - GetMediaResourceIdRequest
 //
 // @return GetMediaResourceIdResponse
 func (client *Client) GetMediaResourceId(request *GetMediaResourceIdRequest) (_result *GetMediaResourceIdResponse, _err error) {
@@ -10829,9 +10802,9 @@ func (client *Client) GetMediaResourceId(request *GetMediaResourceIdRequest) (_r
 //
 // You can call this operation up to 300 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - GetOSSInfoForCardTemplateRequest
+//  request - GetOSSInfoForCardTemplateRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return GetOSSInfoForCardTemplateResponse
 func (client *Client) GetOSSInfoForCardTemplateWithOptions(runtime *util.RuntimeOptions) (_result *GetOSSInfoForCardTemplateResponse, _err error) {
@@ -10884,9 +10857,9 @@ func (client *Client) GetOSSInfoForCardTemplate() (_result *GetOSSInfoForCardTem
 //
 // 短信上传文件，获取授权信息
 //
-// @param request - GetOSSInfoForUploadFileRequest
+//  request - GetOSSInfoForUploadFileRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return GetOSSInfoForUploadFileResponse
 func (client *Client) GetOSSInfoForUploadFileWithOptions(request *GetOSSInfoForUploadFileRequest, runtime *util.RuntimeOptions) (_result *GetOSSInfoForUploadFileResponse, _err error) {
@@ -10938,7 +10911,7 @@ func (client *Client) GetOSSInfoForUploadFileWithOptions(request *GetOSSInfoForU
 //
 // 短信上传文件，获取授权信息
 //
-// @param request - GetOSSInfoForUploadFileRequest
+//  request - GetOSSInfoForUploadFileRequest
 //
 // @return GetOSSInfoForUploadFileResponse
 func (client *Client) GetOSSInfoForUploadFile(request *GetOSSInfoForUploadFileRequest) (_result *GetOSSInfoForUploadFileResponse, _err error) {
@@ -10956,9 +10929,9 @@ func (client *Client) GetOSSInfoForUploadFile(request *GetOSSInfoForUploadFileRe
 //
 // 查询短信签名详情
 //
-// @param request - GetSmsSignRequest
+//  request - GetSmsSignRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return GetSmsSignResponse
 func (client *Client) GetSmsSignWithOptions(request *GetSmsSignRequest, runtime *util.RuntimeOptions) (_result *GetSmsSignResponse, _err error) {
@@ -11010,7 +10983,7 @@ func (client *Client) GetSmsSignWithOptions(request *GetSmsSignRequest, runtime 
 //
 // 查询短信签名详情
 //
-// @param request - GetSmsSignRequest
+//  request - GetSmsSignRequest
 //
 // @return GetSmsSignResponse
 func (client *Client) GetSmsSign(request *GetSmsSignRequest) (_result *GetSmsSignResponse, _err error) {
@@ -11028,9 +11001,9 @@ func (client *Client) GetSmsSign(request *GetSmsSignRequest) (_result *GetSmsSig
 //
 // 查询文本短信模板详情
 //
-// @param request - GetSmsTemplateRequest
+//  request - GetSmsTemplateRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return GetSmsTemplateResponse
 func (client *Client) GetSmsTemplateWithOptions(request *GetSmsTemplateRequest, runtime *util.RuntimeOptions) (_result *GetSmsTemplateResponse, _err error) {
@@ -11082,7 +11055,7 @@ func (client *Client) GetSmsTemplateWithOptions(request *GetSmsTemplateRequest, 
 //
 // 查询文本短信模板详情
 //
-// @param request - GetSmsTemplateRequest
+//  request - GetSmsTemplateRequest
 //
 // @return GetSmsTemplateResponse
 func (client *Client) GetSmsTemplate(request *GetSmsTemplateRequest) (_result *GetSmsTemplateResponse, _err error) {
@@ -11106,9 +11079,9 @@ func (client *Client) GetSmsTemplate(request *GetSmsTemplateRequest) (_result *G
 //
 // You can call this operation up to 50 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - ListTagResourcesRequest
+//  request - ListTagResourcesRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return ListTagResourcesResponse
 func (client *Client) ListTagResourcesWithOptions(request *ListTagResourcesRequest, runtime *util.RuntimeOptions) (_result *ListTagResourcesResponse, _err error) {
@@ -11190,7 +11163,7 @@ func (client *Client) ListTagResourcesWithOptions(request *ListTagResourcesReque
 //
 // You can call this operation up to 50 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - ListTagResourcesRequest
+//  request - ListTagResourcesRequest
 //
 // @return ListTagResourcesResponse
 func (client *Client) ListTagResources(request *ListTagResourcesRequest) (_result *ListTagResourcesResponse, _err error) {
@@ -11226,9 +11199,9 @@ func (client *Client) ListTagResources(request *ListTagResourcesRequest) (_resul
 //
 // 	- If you are an individual user, you cannot apply for a new signature on the same day that your signature is rejected or deleted. We recommend that you modify the rejected signature and submit it again.
 //
-// @param request - ModifySmsSignRequest
+//  request - ModifySmsSignRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return ModifySmsSignResponse
 func (client *Client) ModifySmsSignWithOptions(request *ModifySmsSignRequest, runtime *util.RuntimeOptions) (_result *ModifySmsSignResponse, _err error) {
@@ -11316,7 +11289,7 @@ func (client *Client) ModifySmsSignWithOptions(request *ModifySmsSignRequest, ru
 //
 // 	- If you are an individual user, you cannot apply for a new signature on the same day that your signature is rejected or deleted. We recommend that you modify the rejected signature and submit it again.
 //
-// @param request - ModifySmsSignRequest
+//  request - ModifySmsSignRequest
 //
 // @return ModifySmsSignResponse
 func (client *Client) ModifySmsSign(request *ModifySmsSignRequest) (_result *ModifySmsSignResponse, _err error) {
@@ -11346,9 +11319,9 @@ func (client *Client) ModifySmsSign(request *ModifySmsSignRequest) (_result *Mod
 //
 // You can call this operation up to 1,000 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - ModifySmsTemplateRequest
+//  request - ModifySmsTemplateRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return ModifySmsTemplateResponse
 func (client *Client) ModifySmsTemplateWithOptions(request *ModifySmsTemplateRequest, runtime *util.RuntimeOptions) (_result *ModifySmsTemplateResponse, _err error) {
@@ -11428,7 +11401,7 @@ func (client *Client) ModifySmsTemplateWithOptions(request *ModifySmsTemplateReq
 //
 // You can call this operation up to 1,000 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - ModifySmsTemplateRequest
+//  request - ModifySmsTemplateRequest
 //
 // @return ModifySmsTemplateResponse
 func (client *Client) ModifySmsTemplate(request *ModifySmsTemplateRequest) (_result *ModifySmsTemplateResponse, _err error) {
@@ -11452,9 +11425,9 @@ func (client *Client) ModifySmsTemplate(request *ModifySmsTemplateRequest) (_res
 //
 // You can call this operation up to 300 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QueryCardSmsTemplateRequest
+//  request - QueryCardSmsTemplateRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return QueryCardSmsTemplateResponse
 func (client *Client) QueryCardSmsTemplateWithOptions(request *QueryCardSmsTemplateRequest, runtime *util.RuntimeOptions) (_result *QueryCardSmsTemplateResponse, _err error) {
@@ -11500,7 +11473,7 @@ func (client *Client) QueryCardSmsTemplateWithOptions(request *QueryCardSmsTempl
 //
 // You can call this operation up to 300 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QueryCardSmsTemplateRequest
+//  request - QueryCardSmsTemplateRequest
 //
 // @return QueryCardSmsTemplateResponse
 func (client *Client) QueryCardSmsTemplate(request *QueryCardSmsTemplateRequest) (_result *QueryCardSmsTemplateResponse, _err error) {
@@ -11524,9 +11497,9 @@ func (client *Client) QueryCardSmsTemplate(request *QueryCardSmsTemplateRequest)
 //
 // You can call this operation up to 300 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QueryCardSmsTemplateReportRequest
+//  request - QueryCardSmsTemplateReportRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return QueryCardSmsTemplateReportResponse
 func (client *Client) QueryCardSmsTemplateReportWithOptions(request *QueryCardSmsTemplateReportRequest, runtime *util.RuntimeOptions) (_result *QueryCardSmsTemplateReportResponse, _err error) {
@@ -11580,7 +11553,7 @@ func (client *Client) QueryCardSmsTemplateReportWithOptions(request *QueryCardSm
 //
 // You can call this operation up to 300 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QueryCardSmsTemplateReportRequest
+//  request - QueryCardSmsTemplateReportRequest
 //
 // @return QueryCardSmsTemplateReportResponse
 func (client *Client) QueryCardSmsTemplateReport(request *QueryCardSmsTemplateReportRequest) (_result *QueryCardSmsTemplateReportResponse, _err error) {
@@ -11598,9 +11571,9 @@ func (client *Client) QueryCardSmsTemplateReport(request *QueryCardSmsTemplateRe
 //
 // Checks whether a mobile phone number can receive card messages.
 //
-// @param tmpReq - QueryMobilesCardSupportRequest
+//  tmpReq - QueryMobilesCardSupportRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return QueryMobilesCardSupportResponse
 func (client *Client) QueryMobilesCardSupportWithOptions(tmpReq *QueryMobilesCardSupportRequest, runtime *util.RuntimeOptions) (_result *QueryMobilesCardSupportResponse, _err error) {
@@ -11650,7 +11623,7 @@ func (client *Client) QueryMobilesCardSupportWithOptions(tmpReq *QueryMobilesCar
 //
 // Checks whether a mobile phone number can receive card messages.
 //
-// @param request - QueryMobilesCardSupportRequest
+//  request - QueryMobilesCardSupportRequest
 //
 // @return QueryMobilesCardSupportResponse
 func (client *Client) QueryMobilesCardSupport(request *QueryMobilesCardSupportRequest) (_result *QueryMobilesCardSupportResponse, _err error) {
@@ -11668,9 +11641,9 @@ func (client *Client) QueryMobilesCardSupport(request *QueryMobilesCardSupportRe
 //
 // 点击明细查询
 //
-// @param request - QueryPageSmartShortUrlLogRequest
+//  request - QueryPageSmartShortUrlLogRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return QueryPageSmartShortUrlLogResponse
 func (client *Client) QueryPageSmartShortUrlLogWithOptions(request *QueryPageSmartShortUrlLogRequest, runtime *util.RuntimeOptions) (_result *QueryPageSmartShortUrlLogResponse, _err error) {
@@ -11742,7 +11715,7 @@ func (client *Client) QueryPageSmartShortUrlLogWithOptions(request *QueryPageSma
 //
 // 点击明细查询
 //
-// @param request - QueryPageSmartShortUrlLogRequest
+//  request - QueryPageSmartShortUrlLogRequest
 //
 // @return QueryPageSmartShortUrlLogResponse
 func (client *Client) QueryPageSmartShortUrlLog(request *QueryPageSmartShortUrlLogRequest) (_result *QueryPageSmartShortUrlLogResponse, _err error) {
@@ -11760,9 +11733,9 @@ func (client *Client) QueryPageSmartShortUrlLog(request *QueryPageSmartShortUrlL
 //
 // Queries the information about a message.
 //
-// @param request - QuerySendDetailsRequest
+//  request - QuerySendDetailsRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return QuerySendDetailsResponse
 func (client *Client) QuerySendDetailsWithOptions(request *QuerySendDetailsRequest, runtime *util.RuntimeOptions) (_result *QuerySendDetailsResponse, _err error) {
@@ -11830,7 +11803,7 @@ func (client *Client) QuerySendDetailsWithOptions(request *QuerySendDetailsReque
 //
 // Queries the information about a message.
 //
-// @param request - QuerySendDetailsRequest
+//  request - QuerySendDetailsRequest
 //
 // @return QuerySendDetailsResponse
 func (client *Client) QuerySendDetails(request *QuerySendDetailsRequest) (_result *QuerySendDetailsResponse, _err error) {
@@ -11856,9 +11829,9 @@ func (client *Client) QuerySendDetails(request *QuerySendDetailsRequest) (_resul
 //
 // You can call this operation up to 20 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QuerySendStatisticsRequest
+//  request - QuerySendStatisticsRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return QuerySendStatisticsResponse
 func (client *Client) QuerySendStatisticsWithOptions(request *QuerySendStatisticsRequest, runtime *util.RuntimeOptions) (_result *QuerySendStatisticsResponse, _err error) {
@@ -11942,7 +11915,7 @@ func (client *Client) QuerySendStatisticsWithOptions(request *QuerySendStatistic
 //
 // You can call this operation up to 20 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QuerySendStatisticsRequest
+//  request - QuerySendStatisticsRequest
 //
 // @return QuerySendStatisticsResponse
 func (client *Client) QuerySendStatistics(request *QuerySendStatisticsRequest) (_result *QuerySendStatisticsResponse, _err error) {
@@ -11966,9 +11939,9 @@ func (client *Client) QuerySendStatistics(request *QuerySendStatisticsRequest) (
 //
 // You can call this operation up to 20 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QueryShortUrlRequest
+//  request - QueryShortUrlRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return QueryShortUrlResponse
 func (client *Client) QueryShortUrlWithOptions(request *QueryShortUrlRequest, runtime *util.RuntimeOptions) (_result *QueryShortUrlResponse, _err error) {
@@ -12028,7 +12001,7 @@ func (client *Client) QueryShortUrlWithOptions(request *QueryShortUrlRequest, ru
 //
 // You can call this operation up to 20 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QueryShortUrlRequest
+//  request - QueryShortUrlRequest
 //
 // @return QueryShortUrlResponse
 func (client *Client) QueryShortUrl(request *QueryShortUrlRequest) (_result *QueryShortUrlResponse, _err error) {
@@ -12054,9 +12027,9 @@ func (client *Client) QueryShortUrl(request *QueryShortUrlRequest) (_result *Que
 //
 // You can call this API operation up to 500 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QuerySmsSignRequest
+//  request - QuerySmsSignRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return QuerySmsSignResponse
 func (client *Client) QuerySmsSignWithOptions(request *QuerySmsSignRequest, runtime *util.RuntimeOptions) (_result *QuerySmsSignResponse, _err error) {
@@ -12116,7 +12089,7 @@ func (client *Client) QuerySmsSignWithOptions(request *QuerySmsSignRequest, runt
 //
 // You can call this API operation up to 500 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QuerySmsSignRequest
+//  request - QuerySmsSignRequest
 //
 // @return QuerySmsSignResponse
 func (client *Client) QuerySmsSign(request *QuerySmsSignRequest) (_result *QuerySmsSignResponse, _err error) {
@@ -12142,9 +12115,9 @@ func (client *Client) QuerySmsSign(request *QuerySmsSignRequest) (_result *Query
 //
 // You can call this operation up to 10 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QuerySmsSignListRequest
+//  request - QuerySmsSignListRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return QuerySmsSignListResponse
 func (client *Client) QuerySmsSignListWithOptions(request *QuerySmsSignListRequest, runtime *util.RuntimeOptions) (_result *QuerySmsSignListResponse, _err error) {
@@ -12208,7 +12181,7 @@ func (client *Client) QuerySmsSignListWithOptions(request *QuerySmsSignListReque
 //
 // You can call this operation up to 10 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QuerySmsSignListRequest
+//  request - QuerySmsSignListRequest
 //
 // @return QuerySmsSignListResponse
 func (client *Client) QuerySmsSignList(request *QuerySmsSignListRequest) (_result *QuerySmsSignListResponse, _err error) {
@@ -12234,9 +12207,9 @@ func (client *Client) QuerySmsSignList(request *QuerySmsSignListRequest) (_resul
 //
 // You can call this operation up to 5,000 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QuerySmsTemplateRequest
+//  request - QuerySmsTemplateRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return QuerySmsTemplateResponse
 func (client *Client) QuerySmsTemplateWithOptions(request *QuerySmsTemplateRequest, runtime *util.RuntimeOptions) (_result *QuerySmsTemplateResponse, _err error) {
@@ -12296,7 +12269,7 @@ func (client *Client) QuerySmsTemplateWithOptions(request *QuerySmsTemplateReque
 //
 // You can call this operation up to 5,000 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QuerySmsTemplateRequest
+//  request - QuerySmsTemplateRequest
 //
 // @return QuerySmsTemplateResponse
 func (client *Client) QuerySmsTemplate(request *QuerySmsTemplateRequest) (_result *QuerySmsTemplateResponse, _err error) {
@@ -12322,9 +12295,9 @@ func (client *Client) QuerySmsTemplate(request *QuerySmsTemplateRequest) (_resul
 //
 // You can call this operation up to 10 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QuerySmsTemplateListRequest
+//  request - QuerySmsTemplateListRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return QuerySmsTemplateListResponse
 func (client *Client) QuerySmsTemplateListWithOptions(request *QuerySmsTemplateListRequest, runtime *util.RuntimeOptions) (_result *QuerySmsTemplateListResponse, _err error) {
@@ -12388,7 +12361,7 @@ func (client *Client) QuerySmsTemplateListWithOptions(request *QuerySmsTemplateL
 //
 // You can call this operation up to 10 times per second per account. If the number of calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - QuerySmsTemplateListRequest
+//  request - QuerySmsTemplateListRequest
 //
 // @return QuerySmsTemplateListResponse
 func (client *Client) QuerySmsTemplateList(request *QuerySmsTemplateListRequest) (_result *QuerySmsTemplateListResponse, _err error) {
@@ -12414,9 +12387,9 @@ func (client *Client) QuerySmsTemplateList(request *QuerySmsTemplateListRequest)
 //
 // You can call this operation up to 1,000 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - SendBatchCardSmsRequest
+//  request - SendBatchCardSmsRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return SendBatchCardSmsResponse
 func (client *Client) SendBatchCardSmsWithOptions(request *SendBatchCardSmsRequest, runtime *util.RuntimeOptions) (_result *SendBatchCardSmsResponse, _err error) {
@@ -12512,7 +12485,7 @@ func (client *Client) SendBatchCardSmsWithOptions(request *SendBatchCardSmsReque
 //
 // You can call this operation up to 1,000 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - SendBatchCardSmsRequest
+//  request - SendBatchCardSmsRequest
 //
 // @return SendBatchCardSmsResponse
 func (client *Client) SendBatchCardSms(request *SendBatchCardSmsRequest) (_result *SendBatchCardSmsResponse, _err error) {
@@ -12534,9 +12507,9 @@ func (client *Client) SendBatchCardSms(request *SendBatchCardSmsRequest) (_resul
 //
 // You can call the operation to send messages to a maximum of 100 recipients at a time.
 //
-// @param request - SendBatchSmsRequest
+//  request - SendBatchSmsRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return SendBatchSmsResponse
 func (client *Client) SendBatchSmsWithOptions(request *SendBatchSmsRequest, runtime *util.RuntimeOptions) (_result *SendBatchSmsResponse, _err error) {
@@ -12614,7 +12587,7 @@ func (client *Client) SendBatchSmsWithOptions(request *SendBatchSmsRequest, runt
 //
 // You can call the operation to send messages to a maximum of 100 recipients at a time.
 //
-// @param request - SendBatchSmsRequest
+//  request - SendBatchSmsRequest
 //
 // @return SendBatchSmsResponse
 func (client *Client) SendBatchSms(request *SendBatchSmsRequest) (_result *SendBatchSmsResponse, _err error) {
@@ -12642,9 +12615,9 @@ func (client *Client) SendBatchSms(request *SendBatchSmsRequest) (_result *SendB
 //
 // You can call this operation up to 1,000 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - SendCardSmsRequest
+//  request - SendCardSmsRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return SendCardSmsResponse
 func (client *Client) SendCardSmsWithOptions(request *SendCardSmsRequest, runtime *util.RuntimeOptions) (_result *SendCardSmsResponse, _err error) {
@@ -12738,7 +12711,7 @@ func (client *Client) SendCardSmsWithOptions(request *SendCardSmsRequest, runtim
 //
 // You can call this operation up to 1,000 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - SendCardSmsRequest
+//  request - SendCardSmsRequest
 //
 // @return SendCardSmsResponse
 func (client *Client) SendCardSms(request *SendCardSmsRequest) (_result *SendCardSmsResponse, _err error) {
@@ -12766,9 +12739,9 @@ func (client *Client) SendCardSms(request *SendCardSmsRequest) (_result *SendCar
 //
 // 	- If your verification code signature and general-purpose signature have the same name, the system uses the general-purpose signature to send messages by default.
 //
-// @param request - SendSmsRequest
+//  request - SendSmsRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return SendSmsResponse
 func (client *Client) SendSmsWithOptions(request *SendSmsRequest, runtime *util.RuntimeOptions) (_result *SendSmsResponse, _err error) {
@@ -12850,7 +12823,7 @@ func (client *Client) SendSmsWithOptions(request *SendSmsRequest, runtime *util.
 //
 // 	- If your verification code signature and general-purpose signature have the same name, the system uses the general-purpose signature to send messages by default.
 //
-// @param request - SendSmsRequest
+//  request - SendSmsRequest
 //
 // @return SendSmsResponse
 func (client *Client) SendSms(request *SendSmsRequest) (_result *SendSmsResponse, _err error) {
@@ -12880,9 +12853,9 @@ func (client *Client) SendSms(request *SendSmsRequest) (_result *SendSmsResponse
 //
 // > If you call the SmsConversion operation to query OTP conversion rates, your business may be affected. We recommend that you perform the following operations: 1. Call the SmsConversion operation in an asynchronous manner by configuring queues or events. 2. Manually degrade your services or use a circuit breaker to automatically degrade services.
 //
-// @param request - SmsConversionIntlRequest
+//  request - SmsConversionIntlRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return SmsConversionIntlResponse
 func (client *Client) SmsConversionIntlWithOptions(request *SmsConversionIntlRequest, runtime *util.RuntimeOptions) (_result *SmsConversionIntlResponse, _err error) {
@@ -12954,7 +12927,7 @@ func (client *Client) SmsConversionIntlWithOptions(request *SmsConversionIntlReq
 //
 // > If you call the SmsConversion operation to query OTP conversion rates, your business may be affected. We recommend that you perform the following operations: 1. Call the SmsConversion operation in an asynchronous manner by configuring queues or events. 2. Manually degrade your services or use a circuit breaker to automatically degrade services.
 //
-// @param request - SmsConversionIntlRequest
+//  request - SmsConversionIntlRequest
 //
 // @return SmsConversionIntlResponse
 func (client *Client) SmsConversionIntl(request *SmsConversionIntlRequest) (_result *SmsConversionIntlResponse, _err error) {
@@ -12978,9 +12951,9 @@ func (client *Client) SmsConversionIntl(request *SmsConversionIntlRequest) (_res
 //
 // You can call this operation up to 50 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - TagResourcesRequest
+//  request - TagResourcesRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return TagResourcesResponse
 func (client *Client) TagResourcesWithOptions(request *TagResourcesRequest, runtime *util.RuntimeOptions) (_result *TagResourcesResponse, _err error) {
@@ -13054,7 +13027,7 @@ func (client *Client) TagResourcesWithOptions(request *TagResourcesRequest, runt
 //
 // You can call this operation up to 50 times per second per account. If the number of the calls per second exceeds the limit, throttling is triggered. As a result, your business may be affected. We recommend that you take note of the limit when you call this operation.
 //
-// @param request - TagResourcesRequest
+//  request - TagResourcesRequest
 //
 // @return TagResourcesResponse
 func (client *Client) TagResources(request *TagResourcesRequest) (_result *TagResourcesResponse, _err error) {
@@ -13068,9 +13041,9 @@ func (client *Client) TagResources(request *TagResourcesRequest) (_result *TagRe
 	return _result, _err
 }
 
-// @param request - UntagResourcesRequest
+//  request - UntagResourcesRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return UntagResourcesResponse
 func (client *Client) UntagResourcesWithOptions(request *UntagResourcesRequest, runtime *util.RuntimeOptions) (_result *UntagResourcesResponse, _err error) {
@@ -13138,7 +13111,7 @@ func (client *Client) UntagResourcesWithOptions(request *UntagResourcesRequest, 
 	return _result, _err
 }
 
-// @param request - UntagResourcesRequest
+//  request - UntagResourcesRequest
 //
 // @return UntagResourcesResponse
 func (client *Client) UntagResources(request *UntagResourcesRequest) (_result *UntagResourcesResponse, _err error) {
@@ -13156,9 +13129,9 @@ func (client *Client) UntagResources(request *UntagResourcesRequest) (_result *U
 //
 // 修改文本短信签名
 //
-// @param tmpReq - UpdateSmsSignRequest
+//  tmpReq - UpdateSmsSignRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return UpdateSmsSignResponse
 func (client *Client) UpdateSmsSignWithOptions(tmpReq *UpdateSmsSignRequest, runtime *util.RuntimeOptions) (_result *UpdateSmsSignResponse, _err error) {
@@ -13244,7 +13217,7 @@ func (client *Client) UpdateSmsSignWithOptions(tmpReq *UpdateSmsSignRequest, run
 //
 // 修改文本短信签名
 //
-// @param request - UpdateSmsSignRequest
+//  request - UpdateSmsSignRequest
 //
 // @return UpdateSmsSignResponse
 func (client *Client) UpdateSmsSign(request *UpdateSmsSignRequest) (_result *UpdateSmsSignResponse, _err error) {
@@ -13262,9 +13235,9 @@ func (client *Client) UpdateSmsSign(request *UpdateSmsSignRequest) (_result *Upd
 //
 // 修改文本短信模板
 //
-// @param tmpReq - UpdateSmsTemplateRequest
+//  tmpReq - UpdateSmsTemplateRequest
 //
-// @param runtime - runtime options for this request RuntimeOptions
+//  runtime - runtime options for this request RuntimeOptions
 //
 // @return UpdateSmsTemplateResponse
 func (client *Client) UpdateSmsTemplateWithOptions(tmpReq *UpdateSmsTemplateRequest, runtime *util.RuntimeOptions) (_result *UpdateSmsTemplateResponse, _err error) {
@@ -13358,7 +13331,7 @@ func (client *Client) UpdateSmsTemplateWithOptions(tmpReq *UpdateSmsTemplateRequ
 //
 // 修改文本短信模板
 //
-// @param request - UpdateSmsTemplateRequest
+//  request - UpdateSmsTemplateRequest
 //
 // @return UpdateSmsTemplateResponse
 func (client *Client) UpdateSmsTemplate(request *UpdateSmsTemplateRequest) (_result *UpdateSmsTemplateResponse, _err error) {
